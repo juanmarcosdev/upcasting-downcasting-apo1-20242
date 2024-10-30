@@ -31,8 +31,11 @@ public class JugadorDeTenis extends Persona {
     // Sobreescritura: Implementación del método abstracto describirOcupacion
     @Override
     public String describirOcupacion() {
+        /*
         return "Soy un jugador de tenis profesional, mi ranking es " + ranking +
                " y juego con la mano " + manoDominante.toString().toLowerCase() + ".";
+        */
+       return super.describirOcupacion() + " y soy jugador de Tenis";
     }
 
     // Método para comportamiento específico de JugadorDeTenis

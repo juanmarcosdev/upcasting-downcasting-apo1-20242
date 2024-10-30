@@ -11,4 +11,8 @@ public class JuezDeLinea extends Juez {
     public String asignarPosicion() {
         return "Estoy asignado a una línea específica para verificar si la pelota cae dentro o fuera.";
     }
+
+    public String observarPelota() {
+        return "Estoy observando si la pelota queda dentro o fuera";
+    }
 }
