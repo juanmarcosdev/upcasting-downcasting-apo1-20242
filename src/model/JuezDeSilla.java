@@ -11,4 +11,10 @@ public class JuezDeSilla extends Juez {
     public String asignarPosicion() {
         return "Estoy asignado a la silla central, supervisando el partido.";
     }
+
+    // Sobreescritura de metodo describirOcupacion
+    @Override
+    public String describirOcupacion() {
+        return "Mi ocupacion es ser un juez de tenis profesional con " + nivelExperiencia + " años de experiencia y la silla es comoda.";
+    }
 }

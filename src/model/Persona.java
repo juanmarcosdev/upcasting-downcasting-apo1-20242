@@ -30,6 +30,12 @@ public abstract class Persona {
     una descripción de la ocupación o rol de la persona. 
     Esto ayuda a definir el comportamiento de las subclases y hacer la clase Persona más versátil.
     */
+   /*
+    public String describirOcupacion() {
+        return "Soy " + getNombre();
+    }
+    */
+
     public abstract String describirOcupacion();
 
     // Método común

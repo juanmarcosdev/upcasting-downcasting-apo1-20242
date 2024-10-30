@@ -38,6 +38,7 @@ public class Executable {
         cont.crearJuezDeSilla("Pepito Perez", 40, 15);
         cont.crearJuezDeLinea("Jaimito", 30, 2);
         cont.crearJuezDeLinea("Perencito", 37, 10);
+        cont.mostrarDetallesDePersonas();
 
     }
 

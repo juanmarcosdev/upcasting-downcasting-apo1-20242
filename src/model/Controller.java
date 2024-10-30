@@ -52,8 +52,13 @@ public class Controller {
     public void mostrarDetallesDePersonas() {
         for (Persona persona : personas) {
             if (persona != null) {
+                /*
                 // Upcasting: tratar a todas las personas como el tipo general Persona
                 System.out.println(persona.describirOcupacion());
+                System.out.println(persona.darSaludo());
+                */
+
+         
 
                 // Downcasting: verificar el tipo real de la instancia y hacer un cast explícito
                 if (persona instanceof JugadorDeTenis) {
@@ -67,6 +72,7 @@ public class Controller {
                     JuezDeLinea juezLinea = (JuezDeLinea) persona;
                     juezLinea.asignarPosicion(); // Método específico de JuezDeLinea
                 }
+                
             }
         }
     }
