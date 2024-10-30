@@ -76,7 +76,7 @@ public class Controller {
         for (Persona persona : personas) {
             if (persona != null) {
                 // Despacho dinámico: llama al método presentarse, ejecutando la implementación específica de cada subclase
-                System.out.println(persona.presentarse());
+                System.out.println(persona.darSaludo());
             }
         }
     }

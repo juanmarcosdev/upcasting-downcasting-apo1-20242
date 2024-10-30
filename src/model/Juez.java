@@ -1,7 +1,7 @@
 package model;
 
 public abstract class Juez extends Persona {
-    private int nivelExperiencia;  // Nivel de experiencia del juez en años
+    protected int nivelExperiencia;  // Nivel de experiencia del juez en años
 
     public Juez(String nombre, int edad, int nivelExperiencia) {
         super(nombre, edad);

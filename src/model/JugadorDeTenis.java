@@ -36,7 +36,7 @@ public class JugadorDeTenis extends Persona {
     }
 
     // Método para comportamiento específico de JugadorDeTenis
-    public void entrenar() {
-        return getNombre() + " está entrenando para mejorar su ranking.";
+    public String entrenar() {
+        return getNombre() + " esta entrenando para mejorar su ranking.";
     }
 }

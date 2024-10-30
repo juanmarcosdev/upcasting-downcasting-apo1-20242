@@ -2,6 +2,7 @@ package ui;
 
 import java.util.*;
 import model.Controller;
+import model.ManoDominante;
 
 public class Executable {
 
@@ -31,6 +32,12 @@ public class Executable {
      */
 
     public void run() {
+
+        cont.crearJugadorDeTenis("Camila Osorio", 22, 64, ManoDominante.DERECHA);
+        cont.crearJugadorDeTenis("Jaqueline Cristian", 26, 73, ManoDominante.DERECHA);
+        cont.crearJuezDeSilla("Pepito Perez", 40, 15);
+        cont.crearJuezDeLinea("Jaimito", 30, 2);
+        cont.crearJuezDeLinea("Perencito", 37, 10);
 
     }
 
